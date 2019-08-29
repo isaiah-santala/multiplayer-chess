@@ -5,3 +5,4 @@ exports.initNewGame = () => ({
     board: generators.newBoard(),
     turn: 1
 })
+

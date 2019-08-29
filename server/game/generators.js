@@ -1,14 +1,12 @@
 
-exports.newBoard = () => {
-  const newBoard = []
-  const row = []
+exports.newBoard = () => [
+  [2, 3, 4, 6, 5, 4, 3, 2],
+  [1, 1, 1, 1, 1, 1, 1, 1],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [1, 1, 1, 1, 1, 1, 1, 1],
+  [2, 3, 4, 6, 5, 4, 3, 2]
+]
 
-  for (let length = 0; length < 8; length++) {
-    row.push(0)
-  }
-  for (let height = 0; height < 8; height++) {
-    newBoard.push(row)
-  }
-
-  return newBoard
-}
